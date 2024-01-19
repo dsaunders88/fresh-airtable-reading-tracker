@@ -1,10 +1,8 @@
----
-title: About the Library
----
+# About
 
-Welcome to my personal library! This is my (ambitious, flawed, but gratifying) work-in-progress to build my ideal reading tracker app using Airtable and Deno Fresh.
+This is an experiment in building a dynamic, server-side rendered reading tracker with Airtable and Deno Fresh.
 
-All of the book data is stored in an Airtable backend and is rendered on the server, on-demand, on this website. HTMX progressively enhances Fresh's zero client-side JavaScript with dynamic fetching (requiring no page reloads) and snappy navigation.
+All of the reading activity data is stored in an Airtable backend. HTMX progressively enhances Fresh's zero client-side JavaScript with dynamic fetching on request.
 
 You can read more about my process of building this project here:
 
@@ -18,8 +16,3 @@ You can read more about my process of building this project here:
 - SSR Framework: [Deno Fresh](https://fresh.deno.dev/)
 - [HTMX](https://htmx.org/)
 - [Reasonable Colors](https://reasonable.work/colors/)
-
-## Colophon
-
-- Headings: [Garalda](https://www.type-together.com/garalda-font)
-- Body: [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans)

@@ -362,7 +362,7 @@ main {
 
 .content-wrapper:has(.rich-content) {
   margin-block: var(--space-2xl);
-  max-width: 72ch;
+  max-width: 82ch;
 
   & h1 {
     font-style: italic;
