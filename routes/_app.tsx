@@ -22,6 +22,7 @@ export default function App({ Component }: PageProps) {
         <title>{SITE_NAME}</title>
         <meta name="description" content={SITE_DESCRIPTION} />
         <script src="/scripts/themeCheck.js"></script>
+        <link href="/favicon.jpg" rel="icon" type="image/jpg" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"

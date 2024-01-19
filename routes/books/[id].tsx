@@ -1,7 +1,7 @@
 import { Handlers, PageProps } from "$fresh/server.ts";
 import { Head } from "$fresh/runtime.ts";
 import { sortBy } from "$std/collections/sort_by.ts";
-import { DEFAULT, AIRTABLE } from "../../utils/constants.ts";
+import { DEFAULT, AIRTABLE, SITE_NAME } from "../../utils/constants.ts";
 import getAirtableData, {
   defaultBookQuery,
   getAirtableRecord,
@@ -99,9 +99,11 @@ export default function BookPage({ data }: PageProps<Props>) {
 
   return (
     <>
-      {/* <Head>
-        <link rel="stylesheet" href="/styles/book.css" />
-      </Head> */}
+      <Head>
+        <title>
+          {book["Book Title"]} • {SITE_NAME}
+        </title>
+      </Head>
       <main class="book | content-wrapper">
         <article class="grid">
           <div>

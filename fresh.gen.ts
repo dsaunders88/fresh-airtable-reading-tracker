@@ -6,15 +6,8 @@ import * as $_app from "./routes/_app.tsx";
 import * as $_layout from "./routes/_layout.tsx";
 import * as $about from "./routes/about.tsx";
 import * as $api_activity from "./routes/api/activity.tsx";
-import * as $api_products from "./routes/api/products.tsx";
 import * as $books_id_ from "./routes/books/[id].tsx";
-import * as $contact from "./routes/contact.tsx";
-import * as $id1 from "./routes/id1.tsx";
-import * as $id2 from "./routes/id2.tsx";
 import * as $index from "./routes/index.tsx";
-import * as $partials_id1 from "./routes/partials/id1.tsx";
-import * as $partials_id2 from "./routes/partials/id2.tsx";
-import * as $partials_id3 from "./routes/partials/id3.tsx";
 import * as $shelves from "./routes/shelves.tsx";
 
 import { type Manifest } from "$fresh/server.ts";
@@ -25,15 +18,8 @@ const manifest = {
     "./routes/_layout.tsx": $_layout,
     "./routes/about.tsx": $about,
     "./routes/api/activity.tsx": $api_activity,
-    "./routes/api/products.tsx": $api_products,
     "./routes/books/[id].tsx": $books_id_,
-    "./routes/contact.tsx": $contact,
-    "./routes/id1.tsx": $id1,
-    "./routes/id2.tsx": $id2,
     "./routes/index.tsx": $index,
-    "./routes/partials/id1.tsx": $partials_id1,
-    "./routes/partials/id2.tsx": $partials_id2,
-    "./routes/partials/id3.tsx": $partials_id3,
     "./routes/shelves.tsx": $shelves,
   },
   islands: {},
