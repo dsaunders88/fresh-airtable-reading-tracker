@@ -99,9 +99,9 @@ export default function BookPage({ data }: PageProps<Props>) {
 
   return (
     <>
-      <Head>
+      {/* <Head>
         <link rel="stylesheet" href="/styles/book.css" />
-      </Head>
+      </Head> */}
       <main class="book | content-wrapper">
         <article class="grid">
           <div>

@@ -9,7 +9,10 @@ export default function Footer() {
           alt="Made with Fresh"
         />
       </a>
-      <p>A project by Daniel Saunders</p>
+      <p>
+        A project by{" "}
+        <a href="https://daniel-saunders.com/now/">Daniel Saunders</a>
+      </p>
     </footer>
   );
 }

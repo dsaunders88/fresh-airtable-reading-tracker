@@ -38,6 +38,7 @@ export default function App({ Component }: PageProps) {
           href="https://unpkg.com/reasonable-colors@0.4.0/reasonable-colors.css"
         ></link>
         <link rel="stylesheet" href="/global.css" />
+        <link rel="stylesheet" href="/styles/book.css" />
         <script
           src="https://unpkg.com/htmx.org@1.9.9"
           integrity="sha384-QFjmbokDn2DjBjq+fM+8LUIVrAgqcNW2s0PjAxHETgRn9l4fvX31ZxDxvwQnyMOX"
